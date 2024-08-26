@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Vibur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Varela+Round&family=Vibur&display=swap');
+body{
+    background-color: rgb(158, 135, 135);
+}
+
+*{
+   margin:0;
+   padding:0;
+}
+
+nav{
+    font-family: "Ubuntu Mono", monospace;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    height:70px;
+    background-color:black;
+    color:white;
+
+}
+nav ul li{
+    padding: 0px 10px;
+
+}
+.brand img{
+    width:65px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight:bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round' , sans-serif;
+    display: flex;
+    width:70%;
+    border-radius: 12px;
+    margin: 12px auto;
+    padding: 10px;
+    background-image: url('backgroundpic.avif');
+
+}
+
+.bottom{
+    position: sticky;
+    height: 90px;
+    background-color: black;
+    color: pink;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.icons{
+    margin-top: 12px;
+}
+.icons i{
+    cursor:pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 50px;
+}
+.songItem{
+    height: 40px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin:8px 0px;
+    justify-content: space-between;
+    align-items:center;
+    border-radius: 30px;
+}
+
+.songItem img{
+    width: 50px;
+    margin: 0 10px;
+    border-radius: 20px;
+    
+}
+.timestamp{
+    margin: 0 15px;
+}
+
+.timestamp{
+    margin:0 23px;
+    }
+
+.timestamp i{
+    cursor:pointer
+}    
+.songInfo{
+    position:absolute;
+    left: 10vw;
+    font-family: 'Varela Round' , sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in; 
+}
+
+@media only screen and (max-width: 1100px){
+    body{
+        background-color: brown;
+    }
+}
