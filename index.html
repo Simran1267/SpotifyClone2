@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify- your favourite music is here</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+            
+        </ul>  
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h2>Best of NCS - No Copyright Sounds</h2>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="cover/1.jpeg" alt="1" >
+                    <span class="songName">Awazz</span>
+                    <span class="songlistplay"><span class="timestamp">05:20<i id="1" class="far songItemPlay fa-play-circle"></i></span></span>
+                    
+                </div>
+                <div class="songItem">
+                    <img src="cover/2.jpeg" alt="2" >
+                    <span class="songName">Duji Vaar Pyar</span>
+                    <span class="songlistplay"><span class="timestamp">05:20 <i id="2" class="far  songItemPlay fa-play-circle"></i></span></span>
+                    
+                </div>
+                <div class="songItem">
+                    <img src="cover/3.jpeg" alt="3" >
+                    <span class="songName">Fakira</span>
+                    <span class="songlistplay"><span class="timestamp">05:20<i id="3" class="far songItemPlay fa-play-circle"></i></span></span>
+                    
+                </div>
+                <div class="songItem">
+                    <img src="cover/4.jpeg" alt="4" >
+                    <span class="songName">Filhall</span>
+                    <span class="songlistplay"><span class="timestamp">05:20<i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+                    
+                </div>
+                <div class="songItem">
+                    <img src="cover/5.jpeg" alt="5" >
+                    <span class="songName">Khairiyat</span>
+                    <span class="songlistplay"><span class="timestamp">05:20<i id="5" class="far songItemPlay fa-play-circle"></i></span></span>
+                    
+                </div>
+                <div class="songItem">
+                    <img src="cover/6.jpeg" alt="6" >
+                    <span class="songName">Mohabbat</span>
+                    <span class="songlistplay"><span class="timestamp">05:20<i id="6" class="far songItemPlay fa-play-circle"></i></span></span>
+                    
+                </div>
+                <div class="songItem">
+                    <img src="cover/7.jpeg" alt="7" >
+                    <span class="songName">quismat</span>
+                    <span class="songlistplay"><span class="timestamp">05:20<i id="7" class="far songItemPlay fa-play-circle"></i></span></span>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type= "range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons-->
+            <i class="fas fa-2x fa-step-backward" id="previous"></i>
+            <i class="far fa-2x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-2x fa-step-forward" id="next"></i>
+
+
+        </div>
+        <div class="songInfo">
+            <img src="songgif.gif" width="40px" alt="" id="gif"><span id="masterSongName">Awazz</span> 
+        </div>
+    </div>
+</body>
+    <script src="https://kit.fontawesome.com/a3fb225530.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</html>
